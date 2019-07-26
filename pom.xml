@@ -4,20 +4,20 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.example</groupId>
-	<artifactId>vaadingridsortindicators</artifactId>
+	<artifactId>vaadingridfrozencolumnreorder</artifactId>
 	<packaging>war</packaging>
 	<version>1.0-SNAPSHOT</version>
-	<name>vaadingridsortindicators</name>
-	<description>Demonstrate the problem in vaadin GH issue #9074 - Calling clearSortOrder() in Grid does not clear sort indicators</description>
+	<name>vaadingridfrozencolumnreorder</name>
+	<description>Demonstrate the problem in GitHub issue #10546 grid column frozen column reorder issue with SelectionMode.MULTI</description>
 
 	<properties>
-		<vaadin.version>8.1.7</vaadin.version>
-		<vaadin.plugin.version>8.1.7</vaadin.plugin.version>
+		<vaadin.version>8.8.5</vaadin.version>
+		<vaadin.plugin.version>8.8.5</vaadin.plugin.version>
 		<jetty.plugin.version>9.3.9.v20160517</jetty.plugin.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
-		<!-- If there are no local customisations, this can also be "fetch" or "cdn" -->
+		<!-- If there are no local customizations, this can also be "fetch" or "cdn" -->
 		<vaadin.widgetset.mode>local</vaadin.widgetset.mode>
 	</properties>
 
